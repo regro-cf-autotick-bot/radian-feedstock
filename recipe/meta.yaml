@@ -1,5 +1,5 @@
 {% set name = "radian" %}
-{% set version = "0.5.11" %}
+{% set version = "0.5.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/radian-{{ version }}.tar.gz
-  sha256: 84cd880dc0633852110b749d34ef4f48cf13a88d606b51af085424a9fe13cada
+  sha256: ecdd78f699095163c8bcfd64af05683527880d89229ed1063ce47f205bcbe5d6
 
 build:
   number: 0
